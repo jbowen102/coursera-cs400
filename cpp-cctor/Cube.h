@@ -12,6 +12,7 @@ namespace uiuc {
     public:
       Cube();  // Custom default constructor
       Cube(const Cube & obj);  // Custom copy constructor
+      Cube & operator=(const Cube &);
 
       double getVolume();
       double getSurfaceArea();

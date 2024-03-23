@@ -9,7 +9,7 @@
 
 namespace uiuc {
   Cube::Cube() {
-    length_ = 1;
+    length_ = 2;
   }
 
   double Cube::getVolume() {
