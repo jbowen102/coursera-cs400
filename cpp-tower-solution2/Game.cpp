@@ -22,6 +22,9 @@ Game::Game() {
   // - A orange cube of length=3, on top of the blue cube
   // - A purple cube of length=2, on top of the orange cube
   // - A yellow cube of length=1 at the very top
+  // Cube green(5, uiuc::HSLAPixel::GREEN); // mine  
+  // stacks_[0].push_back(green); // mine  
+
   Cube blue(4, uiuc::HSLAPixel::BLUE);
   stacks_[0].push_back(blue);
 

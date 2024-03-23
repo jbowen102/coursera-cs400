@@ -16,6 +16,7 @@ namespace uiuc {
   HSLAPixel HSLAPixel::ORANGE = HSLAPixel(30, 1, 0.5);
   HSLAPixel HSLAPixel::YELLOW = HSLAPixel(60, 1, 0.5);
   HSLAPixel HSLAPixel::PURPLE = HSLAPixel(270, 1, 0.5);
+  // HSLAPixel HSLAPixel::GREEN = HSLAPixel(150, 1, 0.5); // mine  
 
   HSLAPixel::HSLAPixel() {
     h = 0;

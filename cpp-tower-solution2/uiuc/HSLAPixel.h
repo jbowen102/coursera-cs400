@@ -60,6 +60,7 @@ namespace uiuc {
     static HSLAPixel ORANGE;
     static HSLAPixel YELLOW;
     static HSLAPixel PURPLE;
+    static HSLAPixel GREEN;
 
   };
 }
