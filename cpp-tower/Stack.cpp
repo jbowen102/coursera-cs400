@@ -15,11 +15,12 @@ using std::endl;
 void Stack::push_back(const Cube & cube) {
   // Ensure that we do not push a cube on top of a smaller cube:
   if ( size() > 0 && cube.getLength() > peekTop().getLength() ) {
-    std::cerr << "A smaller cube cannot be placed on top of a larger cube." << std::endl;
-    std::cerr << "  Tried to add Cube(length=" << cube.getLength() << ")" << std::endl;
-    std::cerr << "  Current stack: " << *this << std::endl;
+    // std::cerr << "A smaller cube cannot be placed on top of a larger cube." << std::endl;
+    // std::cerr << "  Tried to add Cube(length=" << cube.getLength() << ")" << std::endl;
+    // std::cerr << "  Current stack: " << *this << std::endl;
 
-    throw std::runtime_error("A smaller cube cannot be placed on top of a larger cube.");
+    // throw std::runtime_error("A smaller cube cannot be placed on top of a larger cube.");
+    std::cout << "\tillegal move" << std::endl;
   }
 
   cubes_.push_back(cube);

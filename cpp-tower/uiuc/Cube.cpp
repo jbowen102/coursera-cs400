@@ -10,7 +10,7 @@
 #include <iostream>
 
 namespace uiuc {  
-  Cube::Cube(double length, uiuc::HSLAPixel color) {
+  Cube::Cube(double length, HSLAPixel color) {
     length_ = length;
     color_ = color;
   }
